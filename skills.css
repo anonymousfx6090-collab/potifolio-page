@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+.skills-section {
+background: linear-gradient(135deg,purple, rgb(22, 6, 22), black);
+  color: #fff;
+  padding: 80px 60px;
+}
+
+.skills-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.skills-header h5 {
+  color: #9b6cff;
+  font-size: 14px;
+}
+
+.skills-header h2 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.desc {
+  max-width: 380px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.icon-row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.icon {
+  width: 110px;
+  height: 110px;
+  border: 1px solid #9b6cff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #9b6cff;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.skill {
+  margin-bottom: 30px;
+}
+
+.skill span {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.bar {
+  height: 3px;
+  background: #222;
+  position: relative;
+}
+
+.bar span {
+  position: absolute;
+  height: 100%;
+  background: #9b6cff;
+  left: 0;
+  top: 0;
+}
+
+.tools {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  color: #9b6cff;
+  font-size: 14px;
+}

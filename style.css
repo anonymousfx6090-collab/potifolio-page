@@ -199,6 +199,10 @@ nav ul li a:hover {
 	gap: 50px;
 	flex-wrap: wrap;
 }
+.box :last-child{
+	color: white;
+}
+
 .about-header-2 {
 	color: white;
 	font-size: 25px;

@@ -1,46 +1,71 @@
- <!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Contact Us</title>
-  <link rel="stylesheet" href="contact.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Contact Us</title>
+		<link
+			rel="stylesheet"
+			href="contact.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo">WELCOME !</div>
+			<nav class="">
+				<ul class="nav">
+					<li><a href="./index.html">HOME</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="./skills.html">SKILLS</a></li>
+					<li><a href="./contact.html">CONTACT ME</a></li>
+				</ul>
+			</nav>
+		</header>
 
-<section class="contact-section">
-  <div class="contact-container">
+		<section class="contact-section">
+			<div class="contact-container">
+				<div class="contact-left">
+					<h1>Contact Us</h1>
+					<p>
+						Drop us a message and we’ll get back to you as soon as
+						possible. Let’s build something powerful together.
+					</p>
 
-    <div class="contact-left">
-      <h1>Contact Us</h1>
-      <p>
-        Drop us a message and we’ll get back to you as soon as possible.
-        Let’s build something powerful together.
-      </p>
+					<form>
+						<input
+							type="text"
+							placeholder="Full Name"
+							required
+						/>
+						<input
+							type="email"
+							placeholder="Email Address"
+							required
+						/>
+						<textarea
+							placeholder="Your Message"
+							required
+						></textarea>
+						<button type="submit">Send Message</button>
+					</form>
+				</div>
 
-      <form>
-        <input type="text" placeholder="Full Name" required>
-        <input type="email" placeholder="Email Address" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
+				<div class="contact-right">
+					<h3>Reach Us</h3>
+					<p>Email: pandagoingparaniod.com</p>
+					<p>Phone: +234 91 2080 9881</p>
+					<p>Location: Lagos, Nigeria</p>
 
-
-    <div class="contact-right">
-      <h3>Reach Us</h3>
-      <p>Email: pandagoingparaniod.com</p>
-      <p>Phone: +234 91 2080 9881</p>
-      <p>Location: Lagos, Nigeria</p>
-
-      <div class="socials">
-        <span>Twitter</span>
-        <span>LinkedIn</span>
-        <span>GitHub</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-</body>
+					<div class="socials">
+						<span>Twitter</span>
+						<span>LinkedIn</span>
+						<span>GitHub</span>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
 </html>

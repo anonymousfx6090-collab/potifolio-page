@@ -1,218 +1,377 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>My Portfolio Page || Home</title>
+		<meta
+			name="description"
+			content="Stephen Anthony Chisom - Web Developer Portfolio"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Potfolio Page|| Home</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
+	<body>
+		<div class="page-layout">
+			<header class="header">
+				<div class="logo">WELCOME !</div>
+				<nav>
+					<ul class="nav">
+						<li><a href="./index.html">HOME</a></li>
+						<li><a href="./index.html#about">ABOUT</a></li>
+						<li><a href="./skills.html">SKILLS</a></li>
+						<li><a href="./contact.html">CONTACT ME</a></li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<section>
+					<div
+						id="top"
+						class="hero-sec"
+					>
+						<img
+							class="hero-img"
+							src="images/hero-img.jpg"
+							alt="Portrait of Stephen Anthony Chisom"
+						/>
+						<div class="hero-text">
+							<h1>I AM <span>STEPHEN ANTHONY CHISOM</span></h1>
+							<p>
+								I AM AN UPCOMING WEB DEVELOPER WHO SPECIALIZES
+								IN CRAFTING CLEAN, RESPONSIVE AND USER-FOCUSED
+								WEB INTERFACES THAT BALANCE DESIGN AND
+								FUNCTIONALITY. WITH FOCUS ON FULL STACK
+								DEVELOPMENT, BUILDING RESPONSIVE PAGES THAT
+								STORE AND COLLECT INFORMATION.
+							</p>
+							<div class="abt-and-icon-container">
+								<a
+									href="#about"
+									class="about-btn"
+								>
+									<span>ABOUT</span>
+									<svg
+										id="about-icon"
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										class="lucide lucide-cloud-download-icon lucide-cloud-download"
+									>
+										<path d="M12 13v8l-4-4" />
+										<path d="m12 21 4-4" />
+										<path
+											d="M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284"
+										/>
+									</svg>
+								</a>
+								<div class="icons-container">
+									<a
+										href="#"
+										aria-label="Instagram"
+										><svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											class="lucide lucide-instagram-icon lucide-instagram"
+										>
+											<rect
+												width="20"
+												height="20"
+												x="2"
+												y="2"
+												rx="5"
+												ry="5"
+											/>
+											<path
+												d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+											/>
+											<line
+												x1="17.5"
+												x2="17.51"
+												y1="6.5"
+												y2="6.5"
+											/></svg
+									></a>
+									<a
+										href="#"
+										aria-label="LinkedIn"
+										><svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											class="lucide lucide-linkedin-icon lucide-linkedin"
+										>
+											<path
+												d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+											/>
+											<rect
+												width="4"
+												height="12"
+												x="2"
+												y="9"
+											/>
+											<circle
+												cx="4"
+												cy="4"
+												r="2"
+											/></svg
+									></a>
+									<a
+										href="#"
+										aria-label="GitHub"
+										><svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											class="lucide lucide-github-icon lucide-github"
+										>
+											<path
+												d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+											/>
+											<path
+												d="M9 18c-4.51 2-5-2-7-2"
+											/></svg
+									></a>
+									<a
+										href="mailto:pandagoingparanoid@gmail.com"
+										aria-label="Email"
+										><svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											class="lucide lucide-mail-icon lucide-mail"
+										>
+											<path
+												d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+											/>
+											<rect
+												x="2"
+												y="4"
+												width="20"
+												height="16"
+												rx="2"
+											/></svg
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="about">
+					<h2 class="about-header">ABOUT MYSELF</h2>
+					<div class="about-sec">
+						<div>
+							<div class="about-text-container">
+								<p class="about-text">
+									I’m an upcoming web developer with a strong
+									passion for building structured,<br />
+									responsive, and user-focused digital
+									experiences. <br />
+									I approach web development with a mindset
+									centered on clarity,<br />
+									performance, and purpose — ensuring that
+									every line of code contributes to a clean
+									and functional result.
+								</p>
+								<br />
+								<p class="about-text">
+									I enjoy turning ideas into well-crafted
+									websites that balance design and usability.
+									From layout and typography to <br />
+									responsiveness and optimization, <br />
+									I pay close attention to the details that
+									shape how users interact with a product.
+									<br />
+									To me, a great website is not just visually
+									appealing, but intuitive, fast, and reliable
+									across all devices.
+								</p>
+								<br />
+								<p class="about-text">
+									As I continue to grow in this field, I
+									actively sharpen my skills by working on
+									real projects,<br />
+									studying modern development practices, and
+									refining my understanding of how the web
+									truly works. I’m constantly<br />
+									improving my problem-solving ability,<br />
+									learning how to structure code
+									efficiently,<br />
 
-<body>
-    <div class="page-layout">
-        <header class="header">
-            <div class="logo">WELCOME !</div>
-            <nav class=>
-                <ul class="nav">
-                    <li><a href="./index.html">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="./skills.html">SKILLS</a></li>
-                    <li><a href="./contact.html">CONTACT ME</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <div id="top" class="hero-sec">
-                    <img class="hero-img" src="images/hero-img.jpg" alt="hero-image">
-                    <div class="hero-text">
-                        <h1>I AM <span>STEPHEN ANTHONY CHISOM</span></h1>
-                        <p>I AM AN UPCOMING WEB DEVELOPER WHO SPECIALIZIES IN CRAFTING CLEAN,RESPONSIVE AND USER-FOCUSED
-                            WEB INTERFACES THAT BALANCES DESIGNS AND FUCTIONALITY.<br>
-                            WITH FOCUS ON FULL STACK DEVELOPMENT,BUILDING RESPONSIVE PAGES THAT STORES AND COLLECT
-                            INFORMATION. </p>
-                        <div class="abt-and-icon-container">
-                         <div class="about-btn">
-                                <div>ABOUT</div>
-                                <div class=> <svg id="about-icon" xmlns="http://www.w3.org/2000/svg" width="24"
-                                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-cloud-download-icon lucide-cloud-download">
-                                        <path d="M12 13v8l-4-4" />
-                                        <path d="m12 21 4-4" />
-                                        <path d="M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284" />
-                                    </svg></div>
-                            </div>
-                            <div class="icons-container">
-                                <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram">
-                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-                                    </svg></div>
-                                <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin">
-                                        <path
-                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                                        <rect width="4" height="12" x="2" y="9" />
-                                        <circle cx="4" cy="4" r="2" />
-                                    </svg></div>
-                                <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-github-icon lucide-github">
-                                        <path
-                                            d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
-                                        <path d="M9 18c-4.51 2-5-2-7-2" />
-                                    </svg></div>
-                                <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail">
-                                        <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
-                                        <rect x="2" y="4" width="20" height="16" rx="2" />
-                                    </svg></div>
-                            </div>
-                        </div>
-            </section>
-            <section id="about">
-                <h2 class="about-header">ABOUT MY SELF</h2>
-                <div class="about-sec">
-                    <div>
-                        <div class="about-text-container">
+									and building solutions that can scale as
+									projects evolve.
+								</p>
+							</div>
+							<div class="box-container">
+								<div class="box">
+									<p class="stat-number">4+</p>
+									<p>PROJECTS</p>
+								</div>
+								<div class="box">
+									<p class="stat-number">1</p>
+									<p>CLIENT</p>
+								</div>
+								<div class="box">
+									<p class="stat-number">3</p>
+									<p>MONTHS</p>
+								</div>
+							</div>
+						</div>
+						<div>
+							<img
+								class="img-2"
+								src="images/pic1.jpg"
+								alt="Stephen Anthony Chisom at work"
+							/>
+						</div>
+					</div>
+					<h3 class="about-header-2">WHAT I DO</h3>
+					<p class="about-header-p">
+						BUILDING USER FRIENDLY INTERFACES
+					</p>
+					<div class="service-flex">
+						<div class="service-box">
+							<div class="invisible-box">
+								<div class="child-1"></div>
+								<div class="child-2"></div>
+								<span class="service-text">01</span>
+							</div>
+							<h2>Web Design</h2>
+							<span
+								>Designing beautiful and functional websites
+								that deliver exceptional user interfaces across
+								all devices</span
+							>
+							<ul>
+								<li><span>&rarr;</span> UI/UX Design</li>
+								<li><span>&rarr;</span> Responsive Design</li>
+								<li><span>&rarr;</span> Prototyping</li>
+								<li>
+									<span>&rarr;</span> Frontend Development
+								</li>
+							</ul>
+						</div>
+						<div class="service-box">
+							<div class="invisible-box">
+								<div class="child-1"></div>
+								<div class="child-2"></div>
+								<span class="service-text">02</span>
+							</div>
+							<h2>Mobile App Development</h2>
+							<span
+								>Creating digital application that fetch and
+								stores data</span
+							>
+							<ul>
+								<li>
+									<span>&rarr;</span> Database application
+								</li>
+								<li><span>&rarr;</span> OS Integration</li>
+								<li><span>&rarr;</span> Prototyping</li>
+								<li><span>&rarr;</span> Backend Development</li>
+							</ul>
+						</div>
+						<div class="service-box">
+							<div class="invisible-box">
+								<div class="child-1"></div>
+								<div class="child-2"></div>
+								<span class="service-text">03</span>
+							</div>
+							<h2>Brand Identity</h2>
+							<span
+								>Creating top-notch visual identities that
+								communicate your brand's essence and resonate
+								with your audience</span
+							>
+							<ul>
+								<li><span>&rarr;</span> Logo Design</li>
+								<li><span>&rarr;</span> Brand Strategy</li>
+								<li><span>&rarr;</span> Visual Quicklinks</li>
+								<li><span>&rarr;</span> Brand Flyers</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer-inner">
+					<div class="footer-top">
+						<span class="copyright">© 2026</span>
 
-                            <p class="about-text">I’m an upcoming web developer with a strong passion for building
-                                structured,<br>
-                                responsive, and
-                                user-focused digital experiences. <br>
-                                I approach web development with a mindset centered on
-                                clarity,<br>
-                                performance, and purpose — ensuring that every line of code contributes to a clean and
-                                functional result.</p>
-                            <br>
-                            <p class="about-text">I enjoy turning ideas into well-crafted websites that balance design
-                                and usability. From
-                                layout
-                                and typography to <br> responsiveness and optimization, <br>
-                                I pay close attention to the details
-                                that
-                                shape how users interact with a product. <br>
-                                To me, a great website is not just visually
-                                appealing,
-                                but intuitive, fast, and reliable across all devices.</p>
-                            <br>
-                            <p class="about-text">As I continue to grow in this field, I actively sharpen my skills by
-                                working on real
-                                projects,<br>
-                                studying modern development practices, and refining my understanding of how the web
-                                truly works.
-                                I’m constantly<br> improving my problem-solving ability,<br>
-                                learning how to structure code
-                                efficiently,<br>
+						<a
+							href="#top"
+							class="back-to-top"
+						>
+							BACK TO TOP
+							<span class="arrow">↑</span>
+						</a>
+					</div>
 
-                                and building solutions that can scale as projects evolve.</p>
-                        </div>
-                        <div class="box-container">
-                            <div class="box">
-                                <h1>4+</h1>
-                                <p>PROJECTS</p>
-                            </div>
-                            <div class="box">
-                                <h1>1</h1>
-                                <p>CLIENT</p>
-                            </div>
-                            <div class="box">
-                                <h1>3</h1>
-                                <p>MONHTS</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img class="img-2" src="images/pic1.jpg" alt="pic">
-                    </div>
-                </div>
-                <h3 class="about-header-2">WHAT I DO</h3>
-                <p class="about-header-p">BUILDING USER FRIENDLY INTERFACES</p>
-                <div class="service-flex">
-                    <div class="service-box">
-                        <div class="invisible-box">
-                            <div class="child-1"></div>
-                            <div class="child-2"></div>
-                            <span class="service-text">01</span>
-                        </div>
-                        <h2>Web Design</h2>
-                        <span>Designing beutifull and functional websites that delivers exceptional user interface accros
-                            all devices</span>
-                        <ul>
-                            <li><span>&rarr;</span> UI/UX Design</li>
-                            <li><span>&rarr;</span> Responsive Design</li>
-                            <li><span>&rarr;</span> Prototyping</li>
-                            <li><span>&rarr;</span> Frontend Development</li>
-                        </ul>
-                    </div>
-                    <div class="service-box">
-                        <div class="invisible-box">
-                            <div class="child-1"></div>
-                            <div class="child-2"></div>
-                            <span class="service-text">02</span>
-                        </div>
-                        <h2>Mobile App Development</h2>
-                        <span>Creating digital application that fetch and stores data</span>
-                        <ul>
-                            <li><span>&rarr;</span> Database application</li>
-                            <li><span>&rarr;</span>  OS intigration</li>
-                            <li><span>&rarr;</span>  Prototyping</li>
-                            <li><span>&rarr;</span>  Backend Development</li>
-                        </ul>
-                    </div>
-                        <div class="service-box">
-                            <div class="invisible-box">
-                                <div class="child-1"></div>
-                                <div class="child-2"></div>
-                                <span class="service-text">03</span>
-                            </div>
-                            <h2>Brand Identity</h2>
-                            <span>Creating top-notch visual identities that commun your brands essencce and reason with
-                                your audience</span>
-                            <ul>
-                                <li><span>&rarr;</span> Logo Design</li>
-                                <li><span>&rarr;</span> Brand Strategy</li>
-                                <li><span>&rarr;</span> Visual Quicklinks</li>
-                                <li><span>&rarr;</span> Brand fylers</li>
-                            </ul>
-                        </div>
-            </section>
-        </main>
-      <footer class="footer">
-  <div class="footer-inner">
+					<p class="subtitle">HAVE A PROJECT IN MIND?</p>
 
-    <div class="footer-top">
-      <span class="copyright">© 2026</span>
+					<h2 class="title">LET'S TALK</h2>
 
-      <a href="#top" class="back-to-top">
-        BACK TO TOP
-        <span class="arrow">↑</span>
-      </a>
-    </div>
+					<div class="socials">
+						<a
+							href="#"
+							class="pill"
+							>GITHUB</a
+						>
+						<a
+							href="#"
+							class="pill"
+							>INSTAGRAM</a
+						>
+						<a
+							href="#"
+							class="pill"
+							>TWITTER</a
+						>
+					</div>
 
-    <p class="subtitle">HAVE A PROJECT IN MIND?</p>
-
-    <h1 class="title">LET’S TALK</h1>
-
-    <div class="socials">
-      <a href="#" class="pill">GITHUB</a>
-      <a href="#" class="pill">INSTAGRAM</a>
-      <a href="#" class="pill">TWITTER</a>
-    </div>
-
-    <div class="credits">
-      <p>Design by Stephen Tony Chisom</p>
-      <p>Development by Stephen Tony Chisom</p>
-    </div>
-
-  </div>
-</footer>
-    </div>
-</body>
-
+					<div class="credits">
+						<p>Design by Stephen Tony Chisom</p>
+						<p>Development by Stephen Tony Chisom</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
 </html>

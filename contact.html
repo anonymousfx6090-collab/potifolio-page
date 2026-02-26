@@ -2,70 +2,104 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<title>Contact Us</title>
-		<link
-			rel="stylesheet"
-			href="contact.css"
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>My Portfolio Page || Contact</title>
+		<meta
+			name="description"
+			content="Contact Stephen Anthony Chisom - Web Developer"
 		/>
 		<link
 			rel="stylesheet"
 			href="style.css"
 		/>
+		<link
+			rel="stylesheet"
+			href="contact.css"
+		/>
 	</head>
 	<body>
-		<header class="header">
-			<div class="logo">WELCOME !</div>
-			<nav class="">
-				<ul class="nav">
-					<li><a href="./index.html">HOME</a></li>
-					<li><a href="#about">ABOUT</a></li>
-					<li><a href="./skills.html">SKILLS</a></li>
-					<li><a href="./contact.html">CONTACT ME</a></li>
-				</ul>
-			</nav>
-		</header>
+		<div class="page-layout">
+			<header class="header">
+				<div class="logo">WELCOME !</div>
+				<nav>
+					<ul class="nav">
+						<li><a href="./index.html">HOME</a></li>
+						<li><a href="./index.html#about">ABOUT</a></li>
+						<li><a href="./skills.html">SKILLS</a></li>
+						<li><a href="./contact.html">CONTACT ME</a></li>
+					</ul>
+				</nav>
+			</header>
 
-		<section class="contact-section">
-			<div class="contact-container">
-				<div class="contact-left">
-					<h1>Contact Us</h1>
-					<p>
-						Drop us a message and we’ll get back to you as soon as
-						possible. Let’s build something powerful together.
-					</p>
+			<main>
+				<section class="contact-section">
+					<div class="contact-container">
+						<div class="contact-left">
+							<h1>Contact Us</h1>
+							<p>
+								Drop us a message and we’ll get back to you as
+								soon as possible. Let’s build something powerful
+								together.
+							</p>
 
-					<form>
-						<input
-							type="text"
-							placeholder="Full Name"
-							required
-						/>
-						<input
-							type="email"
-							placeholder="Email Address"
-							required
-						/>
-						<textarea
-							placeholder="Your Message"
-							required
-						></textarea>
-						<button type="submit">Send Message</button>
-					</form>
-				</div>
+							<form
+								action="#"
+								method="POST"
+							>
+								<label
+									for="name"
+									class="sr-only"
+									>Full Name</label
+								>
+								<input
+									id="name"
+									type="text"
+									placeholder="Full Name"
+									required
+								/>
+								<label
+									for="email"
+									class="sr-only"
+									>Email Address</label
+								>
+								<input
+									id="email"
+									type="email"
+									placeholder="Email Address"
+									required
+								/>
+								<label
+									for="message"
+									class="sr-only"
+									>Your Message</label
+								>
+								<textarea
+									id="message"
+									placeholder="Your Message"
+									required
+								></textarea>
+								<button type="submit">Send Message</button>
+							</form>
+						</div>
 
-				<div class="contact-right">
-					<h3>Reach Us</h3>
-					<p>Email: pandagoingparaniod.com</p>
-					<p>Phone: +234 91 2080 9881</p>
-					<p>Location: Lagos, Nigeria</p>
+						<div class="contact-right">
+							<h3>Reach Us</h3>
+							<p>Email: pandagoingparanoid@gmail.com</p>
+							<p>Phone: +234 91 2080 9881</p>
+							<p>Location: Lagos, Nigeria</p>
 
-					<div class="socials">
-						<span>Twitter</span>
-						<span>LinkedIn</span>
-						<span>GitHub</span>
+							<div class="contact-socials">
+								<a href="#">Twitter</a>
+								<a href="#">LinkedIn</a>
+								<a href="#">GitHub</a>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-		</section>
+				</section>
+			</main>
+		</div>
 	</body>
 </html>
